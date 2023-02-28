@@ -41,18 +41,27 @@
   animation-delay: 1s;
   animation-fill-mode: forwards; */
 }
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .coverText h2 {
   position: relative;
-  font-family: "Do Hyeon";
-  font-family: "Jua";
-  font-size: 80px;
+  font-family: "GmarketSansMedium";
+  text-shadow: 1px 1px 5px #999;
+  /* font-family: "Jua"; */
+  font-size: 70px;
   font-weight: 800;
   color: #fff;
-  -webkit-text-stroke: 1px #333;
+  /* -webkit-text-stroke: 1px #999; */
 }
 .coverText h2 span {
   color: #333;
-  -webkit-text-stroke: 1px #333;
+  text-shadow: none;
+  /* -webkit-text-stroke: 1px #333; */
 }
 .coverText h4::before {
   /* width: 100%;
@@ -70,8 +79,10 @@
 .coverText h4 {
   position: relative;
   /* font-family: "Tilt Neon", cursive; */
+  font-family: "GmarketSansMedium";
   font-size: 25px;
-  color: #666;
+  letter-spacing: 0.05em;
+  color: #bbb;
 }
 /* @keyframes coverTextAni {
   0% {
@@ -106,7 +117,7 @@
 }
 .coverSns i {
   font-size: 25px;
-  color: #666;
+  color: #999;
   transition: 0.7s all ease;
 }
 .coverSns:hover i {
