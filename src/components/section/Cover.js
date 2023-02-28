@@ -13,13 +13,13 @@ const Cover = () => {
             <h4>WEB FRONTEND DEVELOPER</h4>
             <div className={classes.coverSnsWrapper}>
               <div className={classes.coverSns}>
-                <i class='ri-github-line'></i>
+                <i className='ri-github-line'></i>
               </div>
               <div className={classes.coverSns}>
-                <i class='ri-bold'></i>
+                <i className='ri-bold'></i>
               </div>
               <div className={classes.coverSns}>
-                <i class='ri-mail-line'></i>
+                <i className='ri-mail-line'></i>
               </div>
             </div>
           </div>
