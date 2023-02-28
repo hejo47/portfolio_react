@@ -1,0 +1,110 @@
+.cover {
+  width: 100vw;
+  max-width: 1920px;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.coverbg {
+  width: 100vw;
+  height: 100vh;
+  height: inherit;
+  position: absolute;
+  right: 0;
+  top: 0%;
+  /* background-image: url(../../img/test.png); */
+  background-size: cover;
+  /* background-color: aliceblue; */
+  background-repeat: no-repeat;
+  z-index: -1;
+  /* border: 1px solid #000; */
+}
+.coverText {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 5px;
+}
+.coverText h2::before {
+  width: 100%;
+  height: 90%;
+  background-color: #111;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  animation-name: coverTextAni;
+  animation-duration: 0.7s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+.coverText h2 {
+  position: relative;
+  font-family: "Do Hyeon";
+  font-size: 80px;
+  font-weight: 800;
+  color: #fff;
+  -webkit-text-stroke: 1px #333;
+}
+.coverText h2 span {
+  color: #333;
+  -webkit-text-stroke: 1px #333;
+}
+.coverText h4::before {
+  width: 100%;
+  height: 90%;
+  background-color: #111;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  animation-name: coverTextAni;
+  animation-duration: 0.7s;
+  animation-delay: 1.2s;
+  animation-fill-mode: forwards;
+}
+.coverText h4 {
+  position: relative;
+  font-family: "Poppins";
+  font-size: 30px;
+}
+@keyframes coverTextAni {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
+.coverSnsWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 10px;
+  padding-top: 15px;
+}
+.coverSns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #eee;
+  cursor: pointer;
+  transition: 0.7s all ease;
+}
+.coverSns:hover {
+  background-color: #333;
+}
+.coverSns i {
+  font-size: 25px;
+  color: #666;
+  transition: 0.7s all ease;
+}
+.coverSns:hover i {
+  color: #fff;
+}

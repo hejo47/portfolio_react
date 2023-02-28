@@ -1,0 +1,37 @@
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+.headerWrapper {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: inline-block;
+}
+.depth {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+.depth li {
+  font-weight: 600;
+}
+/* CONTACT */
+.contactBtn {
+  display: inline-block;
+  border: 3px solid #333;
+  background-color: #fff;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: 0.7s ease all;
+}
+.contactBtn:hover {
+  background-color: #333;
+  color: #fff;
+}
