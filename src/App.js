@@ -3,6 +3,7 @@ import Header from "./components/common/Header";
 import Cover from "./components/section/Cover";
 import Profile from "./components/section/Profile";
 import PortfolioList from "./components/section/PortfolioList";
+import Status from "./components/section/Status";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Cover />
       <Profile />
       <PortfolioList />
+      <Status />
     </div>
   );
 }
