@@ -1,0 +1,12 @@
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.tab {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

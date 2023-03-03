@@ -1,0 +1,13 @@
+.title {
+  display: inline-block;
+  font-size: 12px;
+  background-color: #ddd;
+  margin: 0 0 15px;
+  padding: 4px 10px;
+}
+.content {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "GmarketSansMedium";
+  white-space: pre-wrap;
+}

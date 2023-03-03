@@ -2,4 +2,44 @@
   width: 100%;
   padding-top: 100px;
   padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 100px;
+}
+.profilePhoto {
+  width: 50%;
+  max-width: 500px;
+  height: 500px;
+  box-shadow: 1px 1px 10px #aaa;
+}
+.profileText {
+  width: 50%;
+  max-width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.desc {
+  color: #767676;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 40px;
+  padding-bottom: 27px;
+  line-height: 2em;
+}
+.btn {
+  font-size: 15px;
+  padding: 13px 48px;
+  background-color: #000;
+  color: #fff;
+  transition: 0.7s all ease;
+}
+.btn:hover {
+  border: 2px solid #000;
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
 }
