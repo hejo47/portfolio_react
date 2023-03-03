@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Container from "../common/Container";
 import SectionTitle from "../common/SectionTitle";
 import classes from "./Status.module.css";
@@ -13,19 +14,27 @@ const statusList = [
   },
   {
     name: "JAVASCRIPT",
-    percent: 65,
+    percent: 70,
   },
   {
-    name: "HTML",
-    percent: 95,
+    name: "JQUERY",
+    percent: 80,
   },
   {
-    name: "HTML",
-    percent: 95,
+    name: "PHOTOSHOP",
+    percent: 90,
   },
   {
-    name: "HTML",
-    percent: 95,
+    name: "ILLUSTRATOR",
+    percent: 85,
+  },
+  {
+    name: "REACT",
+    percent: 50,
+  },
+  {
+    name: "POTENTIAL",
+    percent: 100,
   },
 ];
 const Status = () => {

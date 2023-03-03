@@ -1,10 +1,15 @@
 import classes from "./StatusBar.module.css";
+const statusbarHandler = (per) => {
+  document.querySelector(".statusBarInner").style.width = `${per}%`;
+};
 const StatusBar = (props) => {
   return (
     <div className={classes.statusWrap}>
       <span className={classes.name}>{props.name}</span>
       <span className={classes.percent}>{props.percent}</span>
-      <div className={classes.statusBar}></div>
+      <div className={classes.statusBar}>
+        <div className={classes.statusBarInner} style={{ width: `${props.percent}%` }}></div>
+      </div>
     </div>
   );
 };

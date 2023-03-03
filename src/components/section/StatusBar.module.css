@@ -23,3 +23,17 @@ span.percent {
   height: 4px;
   background-color: #eee;
 }
+@keyframes statushandler {
+  from {
+    width: 0%;
+  }
+  to {
+  }
+}
+.statusBarInner {
+  height: 4px;
+  background-color: #333;
+  animation-name: statushandler;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+}

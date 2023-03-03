@@ -60,6 +60,7 @@
 .coverText h2 span {
   color: #333;
   text-shadow: none;
+  display: inline;
   /* -webkit-text-stroke: 1px #333; */
 }
 .coverText h4::before {
