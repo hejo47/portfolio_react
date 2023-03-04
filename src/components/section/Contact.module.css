@@ -1,0 +1,39 @@
+.contact {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-color: #eee;
+  position: relative;
+}
+.contact::after {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0);
+  position: absolute;
+}
+.contactCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contactText {
+  font-size: 70px;
+  color: #fff;
+  font-weight: 700;
+  text-shadow: 1px 1px 5px #999;
+  margin-bottom: 50px;
+}
+.btn {
+  color: #333;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px 48px;
+  transition: 0.7s all ease;
+  border: 2px solid #fff;
+}
+.btn:hover {
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: transparent;
+}

@@ -1,0 +1,28 @@
+.portfolioItem {
+  width: calc(94% / 3);
+  height: 100%;
+  border: 1px solid #000;
+  margin-top: 50px;
+  position: relative;
+  overflow: hidden;
+}
+.portfolioItem:hover .portfolioInner {
+  bottom: 0;
+}
+.img {
+  width: 100%;
+}
+.portfolioInner {
+  width: 100%;
+  padding: 10px 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  transition: 0.7s ease all;
+}
+.portfolioText {
+  color: #333;
+  font-weight: 700;
+  font-size: 18px;
+}

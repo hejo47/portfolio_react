@@ -4,6 +4,8 @@ import Cover from "./components/section/Cover";
 import Profile from "./components/section/Profile";
 import PortfolioList from "./components/section/PortfolioList";
 import Status from "./components/section/Status";
+import Contact from "./components/section/Contact";
+import Footer from "./components/common/Footer";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Profile />
       <PortfolioList />
       <Status />
+      <Contact />
+      <Footer />
     </div>
   );
 }
