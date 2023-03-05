@@ -5,6 +5,7 @@
   position: relative;
   overflow: hidden;
   border: 1px solid #eee;
+  cursor: pointer;
 }
 .portfolioItem:hover .portfolioInner {
   bottom: 0;

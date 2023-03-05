@@ -17,7 +17,14 @@ const Profile = () => {
               멋진 웹 경험은 쉽고 간편하지만 정확한 상호작용에서 생깁니다. <br />
               남녀노소 이용에 부담이 없는 웹 페이지를 만들고 있습니다. 언제나 웹 페이지 사용자의 멋진 경험을 위해 노력합니다.
             </span>
-            <div className={classes.btn}>이력서 다운로드</div>
+            <div
+              className={classes.btn}
+              onClick={() => {
+                window.open("https://www.saramin.co.kr/zf_user/member/resume/view/edit_icon_fl/y/mandb_view/n/res_idx/18337749");
+              }}
+            >
+              이력서 보기
+            </div>
           </div>
         </div>
       </Container>

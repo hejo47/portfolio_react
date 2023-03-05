@@ -1,7 +1,4 @@
 import classes from "./StatusBar.module.css";
-const statusbarHandler = (per) => {
-  document.querySelector(".statusBarInner").style.width = `${per}%`;
-};
 const StatusBar = (props) => {
   return (
     <div className={classes.statusWrap}>
