@@ -2,11 +2,14 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 ul,
 ol,
 li {
   list-style: none;
 }
-.App {
+a {
+  color: #333;
+  text-decoration: none;
 }

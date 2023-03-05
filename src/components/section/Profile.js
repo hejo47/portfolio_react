@@ -1,12 +1,18 @@
 import classes from "./Profile.module.css";
 import Container from "../common/Container";
 import SectionTitle from "../common/SectionTitle";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Profile = () => {
+  useEffect(() => {
+    AOS.init();
+  });
   return (
-    <section>
+    <section id='about'>
       <Container>
         <div className={classes.profile}>
-          <div className={classes.profilePhoto}></div>
+          <div className={classes.profilePhoto} data-aos='fade-up' data-aos-duration='1500'></div>
           <div className={classes.profileText}>
             <SectionTitle title='ABOUT ME' content='혹시 만두 이야기를 아시나요?'>
               <br />

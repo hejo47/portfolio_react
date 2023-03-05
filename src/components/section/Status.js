@@ -39,7 +39,7 @@ const statusList = [
 ];
 const Status = () => {
   return (
-    <section className={classes.status}>
+    <section className={classes.status} id='status'>
       <Container>
         <SectionTitle title='Status'></SectionTitle>
         <div className={classes.statusCon}>

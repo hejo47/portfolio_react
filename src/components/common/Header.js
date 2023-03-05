@@ -20,10 +20,18 @@ const Header = () => {
         <div className={classes.headerWrapper}>
           <h1 className={classes.logo}>LOGO</h1>
           <ul className={classes.depth}>
-            <li>Home</li>
-            <li>About</li>
-            <li>Portfolio</li>
-            <li className={classes.contactBtn}>Contact</li>
+            <li>
+              <a href='#'>Home</a>
+            </li>
+            <li>
+              <a href='#about'>About</a>
+            </li>
+            <li>
+              <a href='#portfolio'>Portfolio</a>
+            </li>
+            <li className={classes.contactBtn}>
+              <a href='#contact'>Contact</a>
+            </li>
           </ul>
         </div>
       </Container>

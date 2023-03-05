@@ -76,7 +76,7 @@ const portfoioList = [
 ];
 const PortfolioList = () => {
   return (
-    <section className={classes.PortfolioListBg}>
+    <section className={classes.PortfolioListBg} id='portfolio'>
       <Container>
         <div className={classes.portfolio}>
           <SectionTitle title='PORTFOLIO' content='작업한 프로젝트들'></SectionTitle>

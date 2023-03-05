@@ -26,6 +26,7 @@ header {
 }
 .depth li {
   font-weight: 600;
+  cursor: pointer;
 }
 /* CONTACT */
 .contactBtn {
@@ -36,7 +37,12 @@ header {
   cursor: pointer;
   transition: 0.7s ease all;
 }
+.contactBtn a {
+  transition: 0.7s ease all;
+}
 .contactBtn:hover {
   background-color: #333;
+}
+.contactBtn:hover a {
   color: #fff;
 }
