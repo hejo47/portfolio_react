@@ -24,6 +24,12 @@ header {
   align-items: center;
   column-gap: 30px;
 }
+@media (max-width: 768px){
+  .depth {
+    column-gap: 15px;
+    font-size: 14px;
+  }
+}
 .depth li {
   font-weight: 600;
   cursor: pointer;
@@ -37,6 +43,11 @@ header {
   cursor: pointer;
   transition: 0.7s ease all;
 }
+@media (max-width: 768px){
+  .contactBtn {
+    padding: 5px 15px;
+  }
+}
 .contactBtn a {
   transition: 0.7s ease all;
 }
@@ -46,3 +57,4 @@ header {
 .contactBtn:hover a {
   color: #fff;
 }
+

@@ -31,6 +31,15 @@
   text-shadow: 1px 1px 5px #999;
   margin-bottom: 50px;
 }
+@media (max-width: 768px){
+  .contactText {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
 .btn {
   color: #333;
   background-color: #fff;

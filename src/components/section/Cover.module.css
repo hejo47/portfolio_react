@@ -57,6 +57,11 @@
   color: #fff;
   /* -webkit-text-stroke: 1px #999; */
 }
+@media (max-width: 768px){
+  .coverText h2 {
+    font-size: 50px;
+  }
+}
 .coverText h2 span {
   color: #333;
   text-shadow: none;
@@ -83,6 +88,11 @@
   font-size: 25px;
   letter-spacing: 0.05em;
   color: #bbb;
+}
+@media (max-width: 768px){
+  .coverText h4 {
+    font-size: 20px;
+  }
 }
 /* @keyframes coverTextAni {
   0% {

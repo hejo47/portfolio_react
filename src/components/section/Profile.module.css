@@ -3,6 +3,7 @@
   padding-top: 100px;
   padding-bottom: 100px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   column-gap: 100px;
@@ -13,6 +14,11 @@
   height: 500px;
   box-shadow: 1px 1px 10px #aaa;
 }
+@media (max-width: 950px){
+  .profilePhoto {
+    width: 100%;
+  }
+}
 .profileText {
   width: 50%;
   max-width: 500px;
@@ -21,6 +27,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+}
+@media (max-width: 950px){
+  .profileText {
+    width: 100%;
+  }
 }
 .desc {
   color: #767676;
