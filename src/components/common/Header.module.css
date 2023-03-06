@@ -16,6 +16,11 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 480px) {
+  .headerWrapper {
+    height: 60px;
+  }
+}
 .logo {
   display: inline-block;
 }
@@ -24,10 +29,16 @@ header {
   align-items: center;
   column-gap: 30px;
 }
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .depth {
     column-gap: 15px;
     font-size: 14px;
+  }
+}
+@media (max-width: 480px) {
+  .depth {
+    column-gap: 10px;
+    font-size: 10px;
   }
 }
 .depth li {
@@ -43,7 +54,7 @@ header {
   cursor: pointer;
   transition: 0.7s ease all;
 }
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .contactBtn {
     padding: 5px 15px;
   }
@@ -57,4 +68,3 @@ header {
 .contactBtn:hover a {
   color: #fff;
 }
-

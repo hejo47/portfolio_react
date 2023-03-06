@@ -10,3 +10,8 @@
   font-weight: 600;
   font-family: "GmarketSansMedium";
 }
+@media (max-width: 768px) {
+  .content {
+    font-size: 20px;
+  }
+}

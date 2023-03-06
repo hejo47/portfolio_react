@@ -14,9 +14,14 @@
   height: 500px;
   box-shadow: 1px 1px 10px #aaa;
 }
-@media (max-width: 950px){
+@media (max-width: 950px) {
   .profilePhoto {
     width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .profilePhoto {
+    height: 300px;
   }
 }
 .profileText {
@@ -28,9 +33,15 @@
   justify-content: center;
   align-items: flex-start;
 }
-@media (max-width: 950px){
+@media (max-width: 950px) {
   .profileText {
     width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .profileText {
+    height: unset;
+    margin-top: 20px;
   }
 }
 .desc {
@@ -41,6 +52,12 @@
   padding-bottom: 27px;
   line-height: 2em;
 }
+@media (max-width: 950px) {
+  .desc {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+}
 .btn {
   font-size: 15px;
   padding: 13px 48px;
@@ -48,6 +65,16 @@
   color: #fff;
   transition: 0.7s all ease;
   cursor: pointer;
+}
+@media (max-width: 950px) {
+  .btn {
+    font-size: 12px;
+    padding: 10px 25px;
+    background-color: #000;
+    color: #fff;
+    transition: 0.7s all ease;
+    cursor: pointer;
+  }
 }
 .btn:hover {
   border: 2px solid #000;

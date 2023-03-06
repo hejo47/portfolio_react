@@ -8,6 +8,13 @@
   border: 1px solid #eee;
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .portfolioItem {
+    width: 100%;
+    min-width: unset;
+    height: 300px;
+  }
+}
 .portfolioItem:hover .portfolioInner {
   bottom: 0;
 }
