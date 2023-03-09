@@ -7,6 +7,7 @@ const PortfolioDetail = (props) => {
     <div className={classes.detail}>
       <Container>
         <div>{detailID}번째 디테일!</div>
+        <p>{console.log(props.key)}</p>
       </Container>
     </div>
   );

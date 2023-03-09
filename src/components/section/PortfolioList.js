@@ -1,7 +1,6 @@
 import classes from "./PortfolioList.module.css";
 import Container from "../common/Container";
 import SectionTitle from "../common/SectionTitle";
-import { useEffect } from "react";
 import img1 from "../../img/kisa.png";
 import img2 from "../../img/bbatsue.png";
 import img3 from "../../img/kakao.png";
@@ -13,8 +12,7 @@ import img8 from "../../img/gliding.jpeg";
 import img9 from "../../img/interpark.jpeg";
 import img10 from "../../img/pizza.jpeg";
 import { Link } from "react-router-dom";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import PortfolioItem from "./PortfolioItem";
 const portfoioList = [
   {
     text: "한국인터넷진흥원",
@@ -68,9 +66,6 @@ const portfoioList = [
   },
 ];
 const PortfolioList = () => {
-  useEffect(() => {
-    AOS.init();
-  });
   return (
     <section className={classes.PortfolioListBg} id='portfolio'>
       <Container>
@@ -80,12 +75,8 @@ const PortfolioList = () => {
             {portfoioList.map((item, idx) => (
               // <PortfolioItem key={idx} img={item.img} text={item.text} url={item.url}></PortfolioItem>
               <Link to={`/Portfolio/Detail/${idx}`}>
-                <div className={classes.portfolioItem} data-aos='fade-up' data-aos-duration='2000'>
-                  <img src={item.img} alt='portfolioImg' />
-                  <div className={classes.portfolioInner}>
-                    <p className={classes.portfolioText}>{item.text}</p>
-                  </div>
-                </div>
+                <PortfolioItem item={item} key={idx} />
+                {console.log(item)}
               </Link>
             ))}
           </div>

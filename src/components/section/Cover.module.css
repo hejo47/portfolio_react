@@ -68,6 +68,10 @@
   color: #333;
   text-shadow: none;
   display: inline;
+  animation-name: coverAnimation;
+  animation-duration: 2s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
   /* -webkit-text-stroke: 1px #333; */
 }
 .coverText h4::before {
