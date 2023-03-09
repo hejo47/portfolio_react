@@ -1,6 +1,7 @@
 import classes from "./Header.module.css";
 import Container from "./Container";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   useEffect(() => {
@@ -21,7 +22,7 @@ const Header = () => {
           <h1 className={classes.logo}>LOGO</h1>
           <ul className={classes.depth}>
             <li>
-              <a href='#'>Home</a>
+              <Link to='/Home'>Home</Link>
             </li>
             <li>
               <a href='#about'>About</a>

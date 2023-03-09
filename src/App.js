@@ -6,16 +6,34 @@ import PortfolioList from "./components/section/PortfolioList";
 import Status from "./components/section/Status";
 import Contact from "./components/section/Contact";
 import Footer from "./components/common/Footer";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import PortfolioDetail from "./components/pages/PortfolioDetail";
 function App() {
   return (
     <div className='App'>
       <Header />
-      <Cover />
-      <Profile />
-      <PortfolioList />
-      <Status />
-      <Contact />
+      <Routes>
+        <Route
+          path='/Home'
+          element={
+            <>
+              <Cover />
+              <Profile />
+              <PortfolioList />
+              <Status />
+              <Contact />
+            </>
+          }
+        ></Route>
+        <Route
+          path='/Portfolio/Detail'
+          element={
+            <>
+              <PortfolioDetail></PortfolioDetail>
+            </>
+          }
+        ></Route>
+      </Routes>
       <Footer />
     </div>
   );

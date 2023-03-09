@@ -39,3 +39,6 @@
   font-weight: 700;
   font-size: 18px;
 }
+a {
+  width: calc(94% / 3);
+}

@@ -12,8 +12,9 @@
   position: absolute;
   right: 0;
   top: 0%;
-  /* background-image: url(../../img/test.png); */
-  background-size: cover;
+  /* background-image: url(../../img/test2.png); */
+  /* background-size: contain; */
+  /* background-position: 60%; */
   /* background-color: aliceblue; */
   background-repeat: no-repeat;
   z-index: -1;
@@ -27,6 +28,7 @@
   justify-content: center;
   align-items: flex-start;
   row-gap: 5px;
+  /* padding-left: 50px; */
 }
 .coverText h2::before {
   /* width: 100%;
@@ -57,7 +59,7 @@
   color: #fff;
   /* -webkit-text-stroke: 1px #999; */
 }
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .coverText h2 {
     font-size: 50px;
   }
@@ -89,7 +91,7 @@
   letter-spacing: 0.05em;
   color: #bbb;
 }
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .coverText h4 {
     font-size: 20px;
   }
@@ -132,4 +134,26 @@
 }
 .coverSns:hover i {
   color: #fff;
+}
+.scroll {
+  width: 1px;
+  height: 50px;
+  background-color: #333;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  animation-name: scrollanimation;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+@keyframes scrollanimation {
+  from {
+    height: 50px;
+    opacity: 1;
+  }
+  to {
+    height: 0;
+    opacity: 0.3;
+  }
 }

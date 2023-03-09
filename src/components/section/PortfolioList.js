@@ -12,6 +12,7 @@ import img7 from "../../img/subway.jpeg";
 import img8 from "../../img/gliding.jpeg";
 import img9 from "../../img/interpark.jpeg";
 import img10 from "../../img/pizza.jpeg";
+import { Link } from "react-router-dom";
 const portfoioList = [
   {
     text: "한국인터넷진흥원",
@@ -80,11 +81,6 @@ const PortfolioList = () => {
       <Container>
         <div className={classes.portfolio}>
           <SectionTitle title='PORTFOLIO' content='작업한 프로젝트들'></SectionTitle>
-          {/* <div className={classes.tab}>
-            <button className={classes.tabstyle}>All</button>
-            <button className={classes.tabstyle}>Frontend</button>
-            <button className={classes.tabstyle}>Publishing</button>
-          </div> */}
           <div className={classes.portfolioWrap}>
             {portfoioList.map((item) => (
               <PortfolioItem img={item.img} text={item.text} url={item.url} key={item.id}></PortfolioItem>

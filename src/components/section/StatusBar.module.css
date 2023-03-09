@@ -6,12 +6,12 @@
   align-items: center;
   column-gap: 50px;
 }
-@media (max-width: 850px){
+@media (max-width: 850px) {
   .statusWrap {
     width: 46%;
   }
 }
-@media (max-width: 666px){
+@media (max-width: 666px) {
   .statusWrap {
     width: 100%;
   }
@@ -33,7 +33,6 @@ span.percent {
   height: 4px;
   background-color: #eee;
 }
-
 @keyframes statushandler {
   from {
     width: 0%;

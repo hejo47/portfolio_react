@@ -7,20 +7,24 @@ const PortfolioItem = (props) => {
   useEffect(() => {
     AOS.init();
   });
+
   return (
-    <div
-      className={classes.portfolioItem}
-      data-aos='fade-up'
-      data-aos-duration='2000'
-      onClick={() => {
-        window.open(props.url);
-      }}
-    >
-      <img src={props.img} alt='portfolioImg' />
-      <div className={classes.portfolioInner}>
-        <p className={classes.portfolioText}>{props.text}</p>
+    <Link to={`/Portfolio/Detail/${props.key}`}>
+      <div
+        className={classes.portfolioItem}
+        data-aos='fade-up'
+        data-aos-duration='2000'
+        onClick={() => {
+          // window.open(props.url);
+          console.log(props.url);
+        }}
+      >
+        <img src={props.img} alt='portfolioImg' />
+        <div className={classes.portfolioInner}>
+          <p className={classes.portfolioText}>{props.text}</p>
+        </div>
       </div>
-    </div>
+    </Link>
   );
 };
 export default PortfolioItem;

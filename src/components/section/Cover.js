@@ -12,17 +12,18 @@ const Cover = () => {
             </h2>
             <h4>WEB FRONTEND DEVELOPER</h4>
             <div className={classes.coverSnsWrapper}>
-              <div className={classes.coverSns}>
+              <div className={classes.coverSns} onClick={() => window.open("https://github.com/hejo47")}>
                 <i className='ri-github-line'></i>
               </div>
-              <div className={classes.coverSns}>
+              <div className={classes.coverSns} onClick={() => window.open("https://blog.naver.com/hejo_47")}>
                 <i className='ri-bold'></i>
               </div>
-              <div className={classes.coverSns}>
+              <div className={classes.coverSns} onClick={() => window.open("mailto:andante0407@gmail.com")}>
                 <i className='ri-mail-line'></i>
               </div>
             </div>
           </div>
+          <div className={classes.scroll}></div>
         </Container>
       </div>
     </section>

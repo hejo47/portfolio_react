@@ -14,11 +14,11 @@ const statusList = [
   },
   {
     name: "JAVASCRIPT",
-    percent: 70,
+    percent: 80,
   },
   {
     name: "JQUERY",
-    percent: 80,
+    percent: 85,
   },
   {
     name: "PHOTOSHOP",
@@ -30,7 +30,7 @@ const statusList = [
   },
   {
     name: "REACT",
-    percent: 50,
+    percent: 70,
   },
   {
     name: "POTENTIAL",
