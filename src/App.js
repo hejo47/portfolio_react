@@ -76,7 +76,7 @@ function App() {
       <Header />
       <Routes>
         <Route
-          path='/Home'
+          path='/'
           element={
             <>
               <Cover />
