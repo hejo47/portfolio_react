@@ -6,9 +6,11 @@ const PortfolioDetail = (props) => {
   return (
     <div className={classes.detail}>
       <Container>
-        <div>{idx}번째 디테일!</div>
-        {console.log(props)}
-        {/* undefined */}
+        <div>
+          {idx}번째 디테일!, {props.list[idx].text}
+          <img src={props.list[idx].img} alt={props.list[idx].text}></img>
+        </div>
+        {console.log(props.list[idx])}
       </Container>
     </div>
   );

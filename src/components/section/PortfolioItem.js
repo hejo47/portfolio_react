@@ -10,7 +10,6 @@ const PortfolioItem = (props) => {
 
   return (
     <div>
-      {console.log(props.item)}
       <div className={classes.portfolioItem} item={props.item} data-aos='fade-up' data-aos-duration='2000'>
         <img src={props.item.img} alt='portfolioImg' />
         <div className={classes.portfolioInner}>
