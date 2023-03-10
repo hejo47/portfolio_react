@@ -76,7 +76,7 @@ const PortfolioList = () => {
               // <PortfolioItem key={idx} img={item.img} text={item.text} url={item.url}></PortfolioItem>
               <Link to={`/Portfolio/Detail/${idx}`}>
                 <PortfolioItem item={item} key={idx} />
-                {console.log(item)}
+                {console.log(idx, item)}
               </Link>
             ))}
           </div>

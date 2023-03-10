@@ -27,7 +27,7 @@ function App() {
         ></Route>
 
         <Route
-          path='/Portfolio/Detail/:detailID'
+          path='/Portfolio/Detail/:idx'
           element={
             <>
               <PortfolioDetail></PortfolioDetail>
