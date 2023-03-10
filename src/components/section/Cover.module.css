@@ -100,16 +100,7 @@
     font-size: 20px;
   }
 }
-/* @keyframes coverTextAni {
-  0% {
-    width: 100%;
-  }
-  50% {
-  }
-  100% {
-    width: 0;
-  }
-} */
+
 .coverSnsWrapper {
   display: flex;
   justify-content: flex-start;
