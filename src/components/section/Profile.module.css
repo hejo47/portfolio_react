@@ -24,6 +24,11 @@
     height: 300px;
   }
 }
+.profilePhoto img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
 .profileText {
   width: 50%;
   max-width: 500px;

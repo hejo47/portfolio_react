@@ -7,7 +7,9 @@ const PortfolioDetail = (props) => {
     <div className={classes.detail}>
       <Container>
         <div>
-          {idx}번째 디테일!, {props.list[idx].text}
+          <h2>
+            {idx}번째 프로젝트, {props.list[idx].text}
+          </h2>
           <img src={props.list[idx].img} alt={props.list[idx].text}></img>
         </div>
         {console.log(props.list[idx])}

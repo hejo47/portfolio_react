@@ -6,7 +6,7 @@ import PortfolioList from "./components/section/PortfolioList";
 import Status from "./components/section/Status";
 import Contact from "./components/section/Contact";
 import Footer from "./components/common/Footer";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import PortfolioDetail from "./components/pages/PortfolioDetail";
 import img1 from "../src/img/kisa.png";
 import img2 from "../src/img/bbatsue.png";

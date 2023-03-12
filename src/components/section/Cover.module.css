@@ -12,10 +12,9 @@
   position: absolute;
   right: 0;
   top: 0%;
-  /* background-image: url(../../img/test2.png); */
-  /* background-size: contain; */
-  /* background-position: 60%; */
-  /* background-color: aliceblue; */
+  background-image: url(../../img/test3.png);
+  background-size: contain;
+  background-position: 80%;
   background-repeat: no-repeat;
   z-index: -1;
   /* border: 1px solid #000; */
@@ -28,7 +27,7 @@
   justify-content: center;
   align-items: flex-start;
   row-gap: 5px;
-  /* padding-left: 50px; */
+  padding-left: 10%;
 }
 .coverText h2::before {
   /* width: 100%;
