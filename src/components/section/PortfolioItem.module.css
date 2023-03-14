@@ -25,7 +25,7 @@
   object-position: top;
   display: block;
 }
-.portfolioInner {
+.portfolioItem:hover img .portfolioInner {
   width: 100%;
   padding: 10px 10px;
   background-color: rgba(255, 255, 255, 0.7);
@@ -41,4 +41,30 @@
 }
 a {
   width: calc(94% / 3);
+}
+
+.portfolioDesc {
+  width: 100%;
+  margin-top: 20px;
+}
+.portfolioDesc p {
+  font-size: 12px;
+  display: flex;
+  column-gap: 20px;
+  color: #777;
+}
+.portfolioDesc p span {
+  font-size: 14px;
+  margin-bottom: 0;
+  font-weight: 400;
+  color: #333;
+}
+.portfolioDesc a i {
+  font-size: 30px;
+  margin-right: 5px;
+  color: #aaa;
+  transition: 0.7s ease all;
+}
+.portfolioDesc a i:hover {
+  color: #333;
 }
