@@ -17,15 +17,41 @@ const Profile = () => {
             <img src={profileimg} alt='프로필' />
           </div>
           <div className={classes.profileText}>
-            <SectionTitle title='ABOUT ME' content='혹시 만두 이야기를 아시나요?'>
+            <SectionTitle title='ABOUT ME' content='여러분, 만두 이야기를 아시나요?'>
               <br />
               혜주일만두 하지!
             </SectionTitle>
-            <span className={classes.desc}>
-              안녕하세요. 저는 프론트 개발자를 꿈꾸고 있습니다. <br />
-              멋진 웹 경험은 쉽고 간편하지만 정확한 상호작용에서 생깁니다. <br />
-              남녀노소 이용에 부담이 없는 웹 페이지를 만들고 있습니다. 언제나 웹 페이지 사용자의 멋진 경험을 위해 노력합니다.
-            </span>
+            {/* <span className={.desc}></span> */}
+            <div className={classes.left}>
+              <h3>교육수료 및 경력</h3>
+              <p>
+                2022년 11월 ~ 2023년 05월 <span>그린컴퓨터아트학원 프론트과정 수료</span>
+              </p>
+              <div className={classes.lineWrap}>
+                <div className={classes.line}></div>
+              </div>
+              <p>
+                2021년 12월 ~ 2022년 08월 <span>이엑스마루 퍼블리셔 근무</span>
+              </p>
+              <div className={classes.lineWrap}>
+                <div className={classes.line}></div>
+              </div>
+              <p>
+                2020년 11월 ~ 2021년 04월 <span>더조은컴퓨터아트학원 퍼블리셔 과정 수료</span>
+              </p>
+            </div>
+            <div className={classes.right}>
+              <h3>자격</h3>
+              <p>
+                2021년 04월 <span>웹디자인기능사 취득</span>
+              </p>
+              <div className={classes.lineWrap}>
+                <div className={classes.line}></div>
+              </div>
+              <p>
+                2015년 07월 <span>컴퓨터그래픽스운용기능사 취득</span>
+              </p>
+            </div>
             <div
               className={classes.btn}
               onClick={() => {
