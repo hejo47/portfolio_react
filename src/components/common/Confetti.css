@@ -1,0 +1,54 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* origin */
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+.timeline {
+  height: 1000px; /* 탐라 길이 */
+  width: 5px;
+  background-color: #e5e5e5;
+}
+
+.stub1 {
+  line-height: 0; /* 공백 길이 - 회색 부분 */
+  font-size: 24px;
+  background-color: #eae4e4;
+}
+
+.stub2 {
+  height: 1000px;
+  /* 현재 주석 처리 */
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 50%;
+  background-color: #e5e5e5;
+}
+
+.circleWrapper {
+  position: relative;
+}
+
+.message {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  min-width: 150px;
+  font-weight: bold;
+}

@@ -42,7 +42,9 @@
 a {
   width: calc(94% / 3);
 }
-
+.portfolioItemWrap {
+  width: calc(96% / 3);
+}
 .portfolioDesc {
   width: 100%;
   margin-top: 20px;
