@@ -12,7 +12,7 @@
   position: absolute;
   right: 0;
   top: 0%;
-  background-image: url(../../img/test3.png);
+  /* background-image: url(../../img/test3.png); */
   background-size: contain;
   background-position: 80%;
   background-repeat: no-repeat;
@@ -29,34 +29,17 @@
   row-gap: 5px;
   padding-left: 10%;
 }
-.coverText h2::before {
-  /* width: 100%;
-  height: 90%;
-  background-color: #111;
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "";
-  animation-name: coverTextAni;
-  animation-duration: 0.7s;
-  animation-delay: 1s;
-  animation-fill-mode: forwards; */
-}
-@font-face {
-  font-family: "GmarketSansMedium";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
 .coverText h2 {
+  height: 100px;
   position: relative;
   font-family: "GmarketSansMedium";
-  text-shadow: 1px 1px 5px #999;
-  /* font-family: "Jua"; */
+  /* text-shadow: 0px 0px 3px #000; */
   font-size: 70px;
-  font-weight: 800;
   color: #fff;
-  /* -webkit-text-stroke: 1px #999; */
+  font-weight: bold;
+  letter-spacing: -6px;
+  -webkit-text-stroke: 1px #fff;
+  -webkit-text-stroke: 0.5px #000;
 }
 @media (max-width: 768px) {
   .coverText h2 {
@@ -67,36 +50,17 @@
   color: #333;
   text-shadow: none;
   display: inline;
-  animation-name: coverAnimation;
-  animation-duration: 2s;
-  animation-delay: 0.3s;
-  animation-fill-mode: forwards;
-  /* -webkit-text-stroke: 1px #333; */
-}
-.coverText h4::before {
-  /* width: 100%;
-  height: 90%;
-  background-color: #111;
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "";
-  animation-name: coverTextAni;
-  animation-duration: 0.7s;
-  animation-delay: 1.2s;
-  animation-fill-mode: forwards; */
 }
 .coverText h4 {
   position: relative;
-  /* font-family: "Tilt Neon", cursive; */
   font-family: "GmarketSansMedium";
-  font-size: 25px;
-  letter-spacing: 0.05em;
-  color: #bbb;
+  font-size: 16px;
+  letter-spacing: -0.05px;
+  color: #666;
 }
 @media (max-width: 768px) {
   .coverText h4 {
-    font-size: 20px;
+    font-size: 14px;
   }
 }
 
@@ -111,23 +75,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #333;
+  width: 30px;
+  height: 30px;
+  /* border-radius: 50%; */
+  /* background-color: #333; */
   cursor: pointer;
   transition: 0.7s all ease;
 }
-.coverSns:hover {
+/* .coverSns:hover {
   background-color: #eee;
-}
+} */
 .coverSns i {
   font-size: 25px;
-  color: #fff;
+  color: #666;
   transition: 0.7s all ease;
 }
 .coverSns:hover i {
-  color: #999;
+  color: #333;
+  transform: translateY(-10px);
 }
 .scroll {
   width: 1px;

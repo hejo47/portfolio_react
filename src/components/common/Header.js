@@ -2,6 +2,7 @@ import classes from "./Header.module.css";
 import Container from "./Container";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import $ from "jquery";
 
 const Header = () => {
   useEffect(() => {

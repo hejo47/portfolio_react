@@ -68,3 +68,69 @@ header {
 .contactBtn:hover a {
   color: #fff;
 }
+/* 로고 애니메이션 */
+/* .logo {
+  width: 580px;
+  height: 148px;
+  overflow: hidden;
+  font-family: "GmarkerSans";
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.logo .o,
+.logo .h,
+.logo .bcn {
+  height: 10em;
+  width: 8em;
+  float: left;
+  margin: 0 auto 0 auto;
+  overflow: hidden;
+}
+
+.logo p {
+  display: block;
+  font-size: 10em;
+  line-height: 1em;
+  text-align: center;
+  width: 100%;
+  overflow: visible;
+  vertical-align: middle;
+}
+.logo p.font-1 {
+  font-family: "Faster One";
+  margin: 0em;
+}
+.logo p.font-2 {
+  font-family: "Press Start 2P";
+  margin: 0.03em auto auto 0.03em;
+}
+.logo p.font-3 {
+  font-family: "GmarkerSans";
+  font-weight: 700;
+  margin: 0em;
+}
+.logo p.font-4 {
+  font-family: "Arbutus";
+  margin: 0em;
+}
+.logo p.font-5 {
+  font-family: "Josefin Sans";
+  margin-top: 15px;
+}
+
+.logo .bcn {
+  position: relative;
+  float: left;
+  width: auto;
+  margin-top: -10px;
+}
+.logo .bcn h1 {
+  font-size: 10em;
+  font-weight: 700;
+  line-height: 0em;
+} */

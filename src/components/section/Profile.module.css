@@ -39,6 +39,11 @@
   justify-content: flex-start;
   align-items: flex-start;
 }
+.profileText .mando {
+  display: inline;
+  color: #fff;
+  background-color: #333;
+}
 @media (max-width: 950px) {
   .profileText {
     width: 100%;
