@@ -19,6 +19,7 @@ import img7 from "../src/img/subway.jpeg";
 import img8 from "../src/img/gliding.jpeg";
 import img9 from "../src/img/interpark.jpeg";
 import img10 from "../src/img/pizza.jpeg";
+import { useEffect } from "react";
 const portfoioList = [
   {
     text: "한국인터넷진흥원",
@@ -42,7 +43,7 @@ const portfoioList = [
   {
     text: "카카오 뉴스",
     img: img3,
-    tech: "REACT, CSS",
+    tech: "REACT, USESTATE, CSS",
     page: "서브 1",
     date: "3일",
     desc: "카카오 뉴스 페이지입니다. 첫 리액트 화면구성 프로그램입니다.",

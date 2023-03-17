@@ -1,8 +1,6 @@
 .App {
-  font-family: sans-serif;
-  text-align: center;
+  /* text-align: center; */
 }
-
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -14,7 +12,7 @@
 }
 
 .timeline {
-  height: 1000px; /* 탐라 길이 */
+  height: 100%; /* 탐라 하나씩 길이 */
   width: 5px;
   background-color: #e5e5e5;
 }
