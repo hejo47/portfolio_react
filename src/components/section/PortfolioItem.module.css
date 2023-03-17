@@ -45,18 +45,28 @@ a {
 .portfolioItemWrap {
   width: calc(96% / 3);
 }
+@media (max-width: 1400px) {
+  .portfolioItemWrap {
+    width: calc(96% / 2);
+  }
+}
+@media (max-width: 1200px) {
+  .portfolioItemWrap {
+    width: 100%;
+  }
+}
 .portfolioDesc {
   width: 100%;
   margin-top: 20px;
 }
 .portfolioDesc p {
-  font-size: 12px;
+  font-size: 14px;
   display: flex;
   column-gap: 20px;
   color: #777;
 }
 .portfolioDesc p span {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0;
   font-weight: 400;
   color: #333;
@@ -69,4 +79,18 @@ a {
 }
 .portfolioDesc a i:hover {
   color: #333;
+}
+.pfbtn {
+  padding: 10px 15px;
+  background-color: #333;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 5px;
+  border: 1px solid #333;
+  transition: 0.7s ease all;
+}
+.pfbtn:hover {
+  color: #333;
+  background-color: #fff;
 }
