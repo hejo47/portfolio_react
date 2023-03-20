@@ -15,9 +15,7 @@ const PortfolioItem = (props) => {
         <Link to={`/Portfolio/Detail/${props.idx}`}>
           <div className={classes.portfolioItem} item={props.item} data-aos='fade-up' data-aos-duration='2000'>
             <img src={props.item.img} alt='portfolioImg' />
-            <div className={classes.portfolioInner}>
-              <p className={classes.portfolioText}>{props.item.text}</p>
-            </div>
+            {/* <p className={classes.portfolioText}>{props.item.text}</p> */}
           </div>
         </Link>
         <div className={classes.portfolioDesc}>

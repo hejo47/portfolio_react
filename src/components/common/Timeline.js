@@ -45,7 +45,7 @@ const Timeline = ({ setObserver, callback }) => {
         </div>
         {/* <div className='message'>{message2}</div> */}
       </div>
-      <div id='timeline3' ref={timeline3} className='timeline' style={{ height: "350vh" }} />
+      <div id='timeline3' ref={timeline3} className='timeline' style={{ height: "220vh" }} />
       <div className='circleWrapper'>
         <div id='circle3' ref={circle3} className='circle'>
           3

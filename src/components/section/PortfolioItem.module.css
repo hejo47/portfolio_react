@@ -1,58 +1,48 @@
 .portfolioItem {
-  width: calc(94% / 3);
-  min-width: 438px;
-  height: 438px;
-  margin-top: 50px;
-  position: relative;
-  overflow: hidden;
-  border: 1px solid #eee;
-  cursor: pointer;
+  max-height: 260px;
 }
 @media (max-width: 768px) {
   .portfolioItem {
-    width: 100%;
-    min-width: unset;
-    height: 300px;
   }
 }
 .portfolioItem:hover .portfolioInner {
   bottom: 0;
 }
 .portfolioItem img {
-  width: 100%;
+  width: calc(100% - 40px);
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: top;
   display: block;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
 }
 .portfolioItem:hover img .portfolioInner {
-  width: 100%;
-  padding: 10px 10px;
-  background-color: rgba(255, 255, 255, 0.7);
-  position: absolute;
-  bottom: -50px;
-  left: 0;
-  transition: 0.7s ease all;
+}
+.portfolioImg {
 }
 .portfolioText {
   color: #333;
   font-weight: 700;
   font-size: 18px;
 }
-a {
-  width: calc(94% / 3);
-}
+/* a {
+  width: 100%;
+  display: block;
+} */
 .portfolioItemWrap {
-  width: calc(96% / 3);
+  width: calc((96% - 120px) / 3);
+  margin-top: 50px;
 }
 @media (max-width: 1400px) {
   .portfolioItemWrap {
     width: calc(96% / 2);
+    margin-top: 30px;
   }
 }
 @media (max-width: 1200px) {
   .portfolioItemWrap {
-    width: 100%;
   }
 }
 .portfolioDesc {

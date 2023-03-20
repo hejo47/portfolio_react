@@ -2,7 +2,7 @@ import classes from "./Cover.module.css";
 import Container from "../common/Container";
 const Cover = () => {
   return (
-    <section>
+    <section id='cover'>
       <div className={classes.cover}>
         <div className={classes.coverbg}></div>
         <Container>

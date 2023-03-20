@@ -36,23 +36,13 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: flex-start;
   column-gap: 2%;
 }
 .portfolioItem {
-  width: calc(94% / 3);
-  min-width: 438px;
-  height: 438px;
-  margin-top: 50px;
-  position: relative;
-  overflow: hidden;
-  border: 1px solid #eee;
-  cursor: pointer;
 }
 @media (max-width: 768px) {
   .portfolioItem {
-    width: 100%;
-    min-width: unset;
-    height: 300px;
   }
 }
 .portfolioItem:hover .portfolioInner {
@@ -66,13 +56,6 @@
   display: block;
 }
 .portfolioInner {
-  width: 100%;
-  padding: 10px 10px;
-  background-color: rgba(255, 255, 255, 0.7);
-  position: absolute;
-  bottom: -50px;
-  left: 0;
-  transition: 0.7s ease all;
 }
 .portfolioText {
   color: #333;
