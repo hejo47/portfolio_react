@@ -3,7 +3,7 @@ import Container from "../common/Container";
 import SectionTitle from "../common/SectionTitle";
 import classes from "./Status.module.css";
 import StatusBar from "./StatusBar";
-// import AOS from "aos";
+import AOS from "aos";
 const statusList = [
   {
     name: "HTML",
@@ -40,25 +40,25 @@ const statusList = [
 ];
 
 const Status = () => {
-  const [status, setstatus] = useState();
+  // const [status, setstatus] = useState();
 
-  const scrollHandler = () => {
-    setstatus(document.querySelector("#status").offsetTop);
-    console.log(status);
-  };
+  // const scrollHandler = () => {
+  //   setstatus(document.querySelector("#status").offsetTop);
+  //   console.log(status);
+  // };
   useEffect(() => {
-    // AOS.init();
+    AOS.init();
     window.addEventListener("scroll", function () {
-      scrollHandler();
-      if (window.scrollY >= status - 150) {
-      }
+      // scrollHandler();
+      // if (window.scrollY >= status - 150) {
+      // }
     });
   });
   return (
     <section className={classes.status} id='status'>
       <Container>
         <SectionTitle title='Status'></SectionTitle>
-        <div className={classes.statusCon}>
+        <div className={classes.statusCon} data-aos='fade-left' data-aos-delay='300'>
           {statusList.map((bar, idx) => {
             return <StatusBar key={idx} name={bar.name} percent={bar.percent}></StatusBar>;
           })}
