@@ -19,7 +19,7 @@ const Profile = () => {
           <div className={classes.profileText}>
             <SectionTitle title='ABOUT ME' content='여러분, "만두" 이야기를 아시나요?'>
               <br />
-              혜주일<span class={classes.mando}>만두</span> 하지!
+              혜주일<span className={classes.mando}>만두</span> 하지!
             </SectionTitle>
             {/* <span className={.desc}></span> */}
             <div className={classes.left}>

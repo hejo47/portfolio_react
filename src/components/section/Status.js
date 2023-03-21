@@ -1,8 +1,9 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Container from "../common/Container";
 import SectionTitle from "../common/SectionTitle";
 import classes from "./Status.module.css";
 import StatusBar from "./StatusBar";
+// import AOS from "aos";
 const statusList = [
   {
     name: "HTML",
@@ -37,14 +38,29 @@ const statusList = [
     percent: 100,
   },
 ];
+
 const Status = () => {
+  const [status, setstatus] = useState();
+
+  const scrollHandler = () => {
+    setstatus(document.querySelector("#status").offsetTop);
+    console.log(status);
+  };
+  useEffect(() => {
+    // AOS.init();
+    window.addEventListener("scroll", function () {
+      scrollHandler();
+      if (window.scrollY >= status - 150) {
+      }
+    });
+  });
   return (
     <section className={classes.status} id='status'>
       <Container>
         <SectionTitle title='Status'></SectionTitle>
         <div className={classes.statusCon}>
-          {statusList.map((bar) => {
-            return <StatusBar name={bar.name} percent={bar.percent}></StatusBar>;
+          {statusList.map((bar, idx) => {
+            return <StatusBar key={idx} name={bar.name} percent={bar.percent}></StatusBar>;
           })}
         </div>
       </Container>

@@ -39,14 +39,9 @@
   align-items: flex-start;
   column-gap: 2%;
 }
-.portfolioItem {
-}
 @media (max-width: 768px) {
   .portfolioItem {
   }
-}
-.portfolioItem:hover .portfolioInner {
-  bottom: 0;
 }
 .portfolioItem img {
   width: 100%;

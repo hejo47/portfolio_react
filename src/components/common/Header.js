@@ -19,7 +19,7 @@ const Header = () => {
     <header>
       <Container>
         <div className={classes.headerWrapper}>
-          <h1 className={classes.logo}>LOGO</h1>
+          <h1 className={classes.logo}>다헤주</h1>
           <ul className={classes.depth}>
             <li>
               <a href='#cover'>Home</a>

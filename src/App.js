@@ -26,7 +26,7 @@ const portfoioList = [
     tech: "HTML, SCSS, JS, AJAX",
     page: "메인 1, 서브 1",
     date: "3주",
-    desc: "관공서 페이지, 반응형, ",
+    desc: "관공서 페이지, 반응형, 웹 표준",
     git: "https://github.com/hejo47/KISAweb",
     url: "https://hejo47.github.io/KISAweb/",
   },
