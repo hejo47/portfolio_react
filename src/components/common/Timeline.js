@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 import TimelineObserver from "react-timeline-animation";
 import { fireConfetti } from "./Confetti";
@@ -18,6 +18,7 @@ const Timeline = ({ setObserver, callback }) => {
   const someCallback4 = () => {
     fireConfetti();
   };
+
   useEffect(() => {
     setObserver(timeline1.current);
     setObserver(timeline2.current);
@@ -28,7 +29,8 @@ const Timeline = ({ setObserver, callback }) => {
     setObserver(circle3.current);
     setObserver(circle4.current, someCallback4);
   }, []);
-
+  // 잘 생각해바 height를 변수로 받아와 뭘로
+  // offsetTop
   return (
     <div className='wrapper'>
       <div id='timeline1' ref={timeline1} className='timeline' style={{ height: "100vh" }} />
