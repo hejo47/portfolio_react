@@ -33,7 +33,7 @@
 }
 @media (max-width: 768px) {
   .contactText {
-    font-size: 50px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,6 +50,14 @@
   border: 2px solid #fff;
   margin-top: 30px;
 }
+@media (max-width: 768px) {
+  .btn {
+    font-size: 14px;
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    margin-top: 20px;
+  }
+}
 .btn:hover {
   border: 2px solid #fff;
   color: #fff;
@@ -62,6 +70,12 @@
   display: inline-block;
   margin-bottom: 10px;
   position: relative;
+}
+@media (max-width: 768px) {
+  .call,
+  .email {
+    font-size: 16px;
+  }
 }
 .call::after,
 .email::after {

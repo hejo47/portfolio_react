@@ -13,6 +13,7 @@
   max-width: 500px;
   height: 500px;
   box-shadow: 1px 1px 10px #aaa;
+  overflow: hidden;
 }
 @media (max-width: 950px) {
   .profilePhoto {

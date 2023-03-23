@@ -12,7 +12,7 @@
   right: 0;
   top: 0%;
   background-image: url(../../img/cover.png);
-  background-size: contain;
+  background-size: 50% cover;
   background-position: right;
   background-repeat: no-repeat;
   z-index: -1;
