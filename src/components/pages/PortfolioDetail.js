@@ -6,13 +6,13 @@ const PortfolioDetail = (props) => {
   return (
     <div className={classes.detail}>
       <Container>
-        <div>
-          <h2>
-            {idx}번째 프로젝트, {props.list[idx].text}
+        <div className={classes.detailWrap}>
+          <h2 className={classes.detailTitle}>
+            {Number(idx) + 1}번째 프로젝트, {props.list[idx].text}
           </h2>
-          <img src={props.list[idx].img} alt={props.list[idx].text}></img>
+          <img className={classes.detailimg} src={props.list[idx].img} alt={props.list[idx].text}></img>
         </div>
-        {console.log(props.list[idx])}
+        {/* {console.log(props.list[idx])} */}
       </Container>
     </div>
   );
