@@ -35,6 +35,12 @@
   width: calc((96% - 120px) / 3);
   margin-top: 50px;
 }
+.portfolioItemWrap a:hover img {
+  transform: translateY(-20px);
+}
+.portfolioItemWrap a img {
+  transition: 0.7s all ease;
+}
 @media (max-width: 1400px) {
   .portfolioItemWrap {
     width: calc(96% / 2);
