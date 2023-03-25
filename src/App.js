@@ -39,7 +39,8 @@ const portfoioList = [
     date: "7일",
     desc: "KAKAO OPEN API 사용",
     url: "https://hejoportfolio.netlify.app/project/interpark/main.html",
-    desc_d: "",
+    desc_d:
+      "Kakao Open API를 사용해서 Json 형식으로 책의 데이터를 전달했고, JavaScript와 JQuery를 이용해서 슬라이드 등의 움직임을 제어했습니다. 색상은 인터파크 시그니처 색상인 붉은 색 (#fc2c3d) 을 이용했으며, 같은 색상 표현을 위해 톤 다운 된 #c43730 색상도 사용했습니다. 서브 페이지에는 책의 소개를 위한 동영상과 상세 이미지를 포함했습니다.",
   },
   {
     text: "카카오 뉴스",
@@ -93,7 +94,8 @@ const portfoioList = [
     date: "3일",
     desc: "반응형, SWIPER",
     url: "https://hejoportfolio.netlify.app/project/subway/index.html",
-    desc_d: "",
+    desc_d:
+      "샌드위치 브랜드인 'SUBWAY'의 홈페이지입니다. 사용자의 다양한 기기에서 접속이 용이하게 반응형으로 제작했습니다. 써브웨이 브랜드의 시그니쳐 색상인 #009132를 사용했습니다. 써브웨이는 자주 이벤트가 발생하기 때문에 이벤트 섹션을 가장 상단에 배치하였고, 메뉴소개 부분은 스와이프 플러그인을 사용해서 메뉴를 배치했습니다.",
   },
   {
     text: "글라이딩",
@@ -103,7 +105,8 @@ const portfoioList = [
     date: "10일",
     desc: "반응형, 서브 페이지",
     url: "https://hejoportfolio.netlify.app/project/gliding/main.html",
-    desc_d: "",
+    desc_d:
+      "'Marine'의 클론 사이트인 'Gliding'입니다. 반응형으로 제작해 사용자들의 각자 다른 해상도에서도 원활한 이용이 가능하게 했습니다. 시그니처 색상으로는 하늘을 연상시키는 파란 색을 사용했고, 안정되고 정돈된 느낌을 주기 위해 톤 다운된 남색도 사용했습니다. 상공 스포츠를 예약하기 위한 페이지이기 때문에 가장 중요한 예약 탭을 위로 배치했고 정보의 정확한 전달을 위해 표 형식으로 정리했습니다. 서브 페이지는 각종 뉴스와 이벤트등을 전달하므로 단순히 제작하였습니다.",
   },
   {
     text: "뺏슈",
@@ -124,7 +127,8 @@ const portfoioList = [
     date: "8일",
     desc: "반응형",
     url: "https://hejoportfolio.netlify.app/project/pizza/main.html",
-    desc_d: "",
+    desc_d:
+      "'Pizza House'의 클론 사이트입니다. 반응형으로 제작해 사용자들의 각자 다른 해상도에서도 원활한 이용이 가능하게 했습니다. 레스토랑 소개 웹이기 때문에 식욕을 돋구는 색상인 붉은 색 (#ef544d) 을 사용했고, 포인트 색상으로는 건강한 느낌이 들게 하는 연두색 계열 (#9acd32) 을 사용했습니다. 기존 웹에서는 메뉴를 글로만 표현한 반면, 제작한 웹에서는 사진과 함께 메뉴를 표현하므로 더 쉬운 이해를 돕습니다. 서브 페이지에서는 레스토랑의 뉴스와 이벤트 영상 등을 전달하기 용이하게 제작했습니다.",
   },
 ];
 function App() {
