@@ -7,8 +7,6 @@ const PortfolioDetail = (props) => {
     <div className={classes.detail}>
       <Container>
         <div className={classes.detailWrap}>
-          <img className={classes.detailimg} src={props.list[idx].img} alt={props.list[idx].text}></img>
-
           <div className={classes.detailTextWrap}>
             <h2 className={classes.detailTitle}>
               {Number(idx) + 1}번째 프로젝트,
@@ -27,6 +25,7 @@ const PortfolioDetail = (props) => {
               )}
             </div>
           </div>
+          <img className={classes.detailimg} src={props.list[idx].img} alt={props.list[idx].text}></img>
         </div>
         {/* {console.log(props.list[idx])} */}
       </Container>

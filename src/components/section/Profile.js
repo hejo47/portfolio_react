@@ -17,7 +17,7 @@ const Profile = () => {
             <img src={profileimg} alt='프로필' />
           </div>
           <div className={classes.profileText}>
-            <SectionTitle title='ABOUT ME' content='여러분, "만두" 이야기를 아시나요?'>
+            <SectionTitle title='ABOUT ME' content='"만두" 이야기를 아시나요?'>
               <br />
               혜주일<span className={classes.mando}>만두</span> 하지!
             </SectionTitle>

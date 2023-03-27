@@ -6,15 +6,15 @@ import StatusBar from "./StatusBar";
 import AOS from "aos";
 const statusList = [
   {
-    name: "HTML",
+    name: "HTML/CSS",
     percent: 95,
   },
   {
-    name: "CSS",
-    percent: 90,
+    name: "JAVASCRIPT",
+    percent: 85,
   },
   {
-    name: "JAVASCRIPT",
+    name: "SCSS",
     percent: 80,
   },
   {
@@ -22,20 +22,20 @@ const statusList = [
     percent: 85,
   },
   {
-    name: "PHOTOSHOP",
+    name: "PHOTOSHOP/ILLUSTRATOR",
     percent: 90,
   },
   {
-    name: "ILLUSTRATOR",
+    name: "REACT",
     percent: 85,
   },
   {
-    name: "REACT",
+    name: "FIGMA",
     percent: 70,
   },
   {
-    name: "POTENTIAL",
-    percent: 100,
+    name: "VUE",
+    percent: 70,
   },
 ];
 

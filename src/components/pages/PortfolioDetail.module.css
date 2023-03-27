@@ -12,17 +12,23 @@
   /* width: calc(49% - 60px); */
   width: calc(100% - 60px);
   padding: 30px;
-  margin-top: 100px;
+  margin-top: 30px;
   background-color: #fff;
   border: 1px solid #eee;
+  padding-bottom: 100px;
 }
 
 .detailTextWrap {
   width: 100%;
-  margin-bottom: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-top: 100px;
+}
+@media (max-width: 768px) {
+  .detailTextWrap {
+    flex-wrap: wrap;
+  }
 }
 .detailTitle {
   width: 50%;
