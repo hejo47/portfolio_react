@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Container from "../common/Container";
 import SectionTitle from "../common/SectionTitle";
 import classes from "./Status.module.css";
