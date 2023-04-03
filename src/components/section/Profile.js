@@ -14,7 +14,7 @@ const Profile = () => {
       <Container>
         <div className={classes.profile}>
           <div className={classes.profilePhoto} data-aos='fade-up' data-aos-duration='1500'>
-            <img src={profileimg} alt='프로필' />
+            {/* <img src={profileimg} alt='프로필' /> */}
           </div>
           <div className={classes.profileText}>
             <SectionTitle title='ABOUT ME' content='"만두" 이야기를 아시나요?'>
