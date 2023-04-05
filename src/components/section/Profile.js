@@ -24,14 +24,14 @@ const Profile = () => {
             {/* <span className={.desc}></span> */}
             <div className={classes.left}>
               <h3>교육수료 및 경력</h3>
-              <p data-aos='fade-down' data-aos-duration='1000'>
-                2022년 11월 ~ 2023년 05월 <span>그린컴퓨터아트학원 프론트과정 수료</span>
+              <p data-aos='fade-down' data-aos-duration='1000' data-aos-delay='1000'>
+                2021년 12월 ~ 2022년 08월 <span>이엑스마루 퍼블리셔 근무</span>
               </p>
               <div className={classes.lineWrap}>
                 <div className={classes.line} data-aos='fade-down' data-aos-duration='1000' data-aos-delay='500'></div>
               </div>
-              <p data-aos='fade-down' data-aos-duration='1000' data-aos-delay='1000'>
-                2021년 12월 ~ 2022년 08월 <span>이엑스마루 퍼블리셔 근무</span>
+              <p data-aos='fade-down' data-aos-duration='1000'>
+                2022년 11월 ~ 2023년 05월 <span>그린컴퓨터아트학원 프론트과정 수료</span>
               </p>
               <div className={classes.lineWrap}>
                 <div className={classes.line} data-aos='fade-down' data-aos-duration='1000' data-aos-delay='1500'></div>
