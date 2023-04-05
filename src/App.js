@@ -19,6 +19,7 @@ import img7 from "../src/img/subway.png";
 import img8 from "../src/img/gliding.png";
 import img9 from "../src/img/interpark.png";
 import img10 from "../src/img/pizza.png";
+import img11 from "../src/img/4niture.png";
 const portfoioList = [
   {
     text: "한국인터넷진흥원",
@@ -87,6 +88,16 @@ const portfoioList = [
       "브랜드 '키르시'의 홈페이지 디자인입니다. 전체적으로 단순하고 깔끔한 느낌을 주기 위해 검정색과 흰색을 사용하여 디자인했습니다. 커버는 재밌고 트렌디한 분위기를 주기 위해서 비대칭 사선으로 내려 작업했고, 제품 레이아웃은 많이 반복되면 시각적으로 지루함을 느낄 수 있기 때문에 가로 슬라이드로 제작했습니다. 배너는 타이다이 패턴을 홍보하기 위해 만들었는데, 패턴이 주는 느낌이 신비, 레트로이기 때문에 옛날 느낌이 나게 제작했습니다.",
   },
   {
+    text: "퍼니쳐",
+    img: img11,
+    tech: "Node Express, Axios",
+    page: "메인 1, 서브 4",
+    date: "2주",
+    desc: "반응형, 데이터베이스 연결",
+    url: "https://4niture-react.vercel.app/",
+    desc_d: "가구 브랜드인 퍼니쳐입니다. 상품은 모두 Node Express를 사용해서 DB에 저장된 데이터를 Axios로 불러왔습니다.",
+  },
+  {
     text: "서브웨이",
     img: img7,
     tech: "HTML, CSS, JS, JQUERY",
@@ -117,7 +128,7 @@ const portfoioList = [
     desc: "OPEN API",
     git: "https://github.com/hejo47/bbatsueWeb",
     url: "https://bbatsue-ar7vhp97x-hejo47.vercel.app/",
-    desc_d: "",
+    desc_d: "빵 쇼핑몰인 뺏슈입니다. '슈가(설탕)를 뺐다' 라는 뜻에서 나온 뺏슈는 당뇨 인구를 위한 무가당 빵을 팔고 있습니다. 제품 상세 페이지에는 OPEN API를 사용한 제품성분표를 제작했습니다.",
   },
   {
     text: "피자 하우스",
