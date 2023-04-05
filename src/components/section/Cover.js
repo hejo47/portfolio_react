@@ -22,9 +22,9 @@ const Cover = () => {
               <div className={classes.coverSns} onClick={() => window.open("mailto:andante0407@gmail.com")}>
                 <i className='ri-mail-fill'></i>
               </div> */}
-              <Link to='https://blog.naver.com/hejo_47' className={classes.btn}>
-                블로그 가기
-              </Link>
+              <a href='../강혜주입사지원서.pdf' download='강혜주_입사지원서' className={classes.btn}>
+                이력서 보기
+              </a>
               <Link to='https://github.com/hejo47' className={classes.btn}>
                 깃허브 가기
               </Link>

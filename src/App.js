@@ -24,7 +24,7 @@ const portfoioList = [
   {
     text: "한국인터넷진흥원",
     img: img1,
-    tech: "HTML, SCSS, JS, AJAX",
+    tech: "HTML, SCSS, JS, OPEN API",
     page: "메인 1, 서브 1",
     date: "3주",
     desc: "관공서 페이지, 반응형, 웹 표준",
@@ -46,10 +46,10 @@ const portfoioList = [
   {
     text: "카카오 뉴스",
     img: img3,
-    tech: "REACT, USESTATE, CSS",
+    tech: "REACT",
     page: "서브 1",
     date: "3일",
-    desc: "REACT 화면 구성",
+    desc: "REACT 화면 구성, useState",
     git: "https://github.com/hejo47/kakaoweb",
     url: "https://kakaoweb-ugrf-g2g9zaudf-hejo47.vercel.app/news",
     desc_d: "",

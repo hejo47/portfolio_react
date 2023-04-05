@@ -14,7 +14,7 @@ const Profile = () => {
       <Container>
         <div className={classes.profile}>
           <div className={classes.profilePhoto} data-aos='fade-up' data-aos-duration='1500'>
-            {/* <img src={profileimg} alt='프로필' /> */}
+            <img src={profileimg} alt='프로필' />
           </div>
           <div className={classes.profileText}>
             <SectionTitle title='ABOUT ME' content='"만두" 이야기를 아시나요?'>
@@ -55,10 +55,10 @@ const Profile = () => {
             <div
               className={classes.btn}
               onClick={() => {
-                window.open("https://www.saramin.co.kr/zf_user/member/resume/view/edit_icon_fl/y/mandb_view/n/res_idx/18337749");
+                window.open("https://blog.naver.com/hejo_47");
               }}
             >
-              이력서 보기
+              블로그 보기
             </div>
           </div>
         </div>

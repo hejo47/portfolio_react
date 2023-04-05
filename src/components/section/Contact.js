@@ -5,11 +5,11 @@ const Contact = () => {
     <section className={classes.contact} id='contact'>
       <Container>
         <div className={classes.contactCon}>
-          <p className={classes.contactText}>Let's Work Together!</p>
-          <span className={classes.call}>Call: 010-4665-8883</span>
-          <span className={classes.email}>Email: andante0407@gmail.com</span>
+          <p className={classes.contactText}>혜주일 수 밖에 없지!</p>
+          <span className={classes.call}>전화번호: 010-4665-8883</span>
+          <span className={classes.email}>이메일: andante0407@gmail.com</span>
           <button className={classes.btn} onClick={() => window.open("mailto:andante0407@gmail.com")}>
-            Contact
+            메일 보내기
           </button>
         </div>
       </Container>

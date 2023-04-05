@@ -22,7 +22,11 @@ const statusList = [
     percent: 85,
   },
   {
-    name: "PHOTOSHOP/ILLUSTRATOR",
+    name: "PHOTOSHOP",
+    percent: 95,
+  },
+  {
+    name: "ILLUSTRATOR",
     percent: 90,
   },
   {
@@ -33,10 +37,10 @@ const statusList = [
     name: "FIGMA",
     percent: 70,
   },
-  {
-    name: "VUE",
-    percent: 70,
-  },
+  // {
+  //   name: "VUE",
+  //   percent: 70,
+  // },
 ];
 
 const Status = () => {

@@ -4,7 +4,7 @@
   /* background-color: #eee; */
   position: relative;
   background-image: url(../../img/contact.jpg);
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
 }
 .contact::after {
