@@ -39,6 +39,11 @@ const PortfolioItem = (props) => {
               <div className={classes.pfbtn}>깃허브 주소</div>
             </Link>
           )}
+          {props.item.git2 && (
+            <Link to={props.item.git2}>
+              <div className={classes.pfbtn}>DB 배포 주소</div>
+            </Link>
+          )}
         </div>
       </div>
     </>

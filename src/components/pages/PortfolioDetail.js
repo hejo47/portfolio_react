@@ -23,6 +23,11 @@ const PortfolioDetail = (props) => {
                   깃허브 주소
                 </Link>
               )}
+              {props.list[idx].git2 && (
+                <Link to={props.list[idx].git2} className={classes.btn}>
+                  DB 배포 주소
+                </Link>
+              )}
             </div>
           </div>
           <img className={classes.detailimg} src={props.list[idx].img} alt={props.list[idx].text}></img>
