@@ -19,7 +19,9 @@ const Header = () => {
     <header>
       <Container>
         <div className={classes.headerWrapper}>
-          <h1 className={classes.logo}>다헤주</h1>
+          <h1 className={classes.logo}>
+            <Link to='/'>다헤주</Link>
+          </h1>
           <ul className={classes.depth}>
             <li>
               <a href='#cover'>Home</a>
