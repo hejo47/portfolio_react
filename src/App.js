@@ -30,7 +30,7 @@ const portfoioList = [
     desc: "관공서 페이지, 반응형, 웹 표준",
     git: "https://github.com/hejo47/KISAweb",
     url: "https://hejo47.github.io/KISAweb/",
-    desc_d: "",
+    desc_d: "웹 접근성을 높히기 위해 스킵메뉴를 넣었고, 웹 표준을 지키며 코딩했습니다. 메인 화면에는 Open Api를 이용해 날씨 데이터를 넣었고, 모든 기기에서 사용이 가능하도록 반응형으로 제작했습니다.",
     score: "100%",
   },
   {
