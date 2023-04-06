@@ -8,13 +8,15 @@ const PortfolioDetail = (props) => {
       <Container>
         <div className={classes.detailWrap}>
           <div className={classes.detailTextWrap}>
-            <h2 className={classes.detailTitle}>
-              {Number(idx) + 1}번째 프로젝트,
-              <br /> {props.list[idx].text}입니다.
-            </h2>
-            <div className={classes.textleft}>
-              <p>특징</p>
+            <div className={classes.textright}>
+              <h2 className={classes.detailTitle}>
+                {Number(idx) + 1}번째 프로젝트,
+                <br /> {props.list[idx].text}입니다.
+              </h2>
+              {/* <p>특징</p> */}
               <span>{props.list[idx].desc_d}</span>
+            </div>
+            <div className={classes.textleft}>
               <Link to={props.list[idx].url} className={classes.btn}>
                 구현 화면
               </Link>

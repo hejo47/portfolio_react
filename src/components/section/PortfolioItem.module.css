@@ -1,8 +1,9 @@
 .portfolioItem {
   max-height: 260px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1400px) {
   .portfolioItem {
+    max-height: unset;
   }
 }
 .portfolioItem:hover .portfolioInner {
@@ -18,10 +19,6 @@
   border: 1px solid #ddd;
   background-color: #fff;
 }
-.portfolioItem:hover img .portfolioInner {
-}
-.portfolioImg {
-}
 .portfolioText {
   color: #333;
   font-weight: 700;
@@ -34,6 +31,9 @@
 .portfolioItemWrap {
   width: calc((96% - 120px) / 3);
   margin-top: 50px;
+}
+.portfolioItemWrap a {
+  width: 100%;
 }
 .portfolioItemWrap a:hover img {
   transform: translateY(-20px);
@@ -85,7 +85,7 @@
 .portfolioDesc a i:hover {
   color: #333;
 }
-.pfbtn {
+div.pfbtn {
   padding: 10px 15px;
   background-color: #333;
   color: #fff;
