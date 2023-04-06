@@ -17,6 +17,7 @@ const PortfolioItem = (props) => {
             <img src={props.item.img} alt='portfolioImg' />
             {/* <p className={classes.portfolioText}>{props.item.text}</p> */}
           </div>
+          <span className={classes.name}>{props.item.text}</span>
         </Link>
         <div className={classes.portfolioDesc}>
           <p>
@@ -27,6 +28,9 @@ const PortfolioItem = (props) => {
           </p>
           <p>
             작업 기간<span>{props.item.date}</span>
+          </p>
+          <p>
+            기 여 도<span>{props.item.score}</span>
           </p>
           <p style={{ marginTop: 10, marginBottom: 10 }}>
             <span>{props.item.desc}</span>
