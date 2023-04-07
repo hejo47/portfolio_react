@@ -54,15 +54,16 @@
   }
 }
 .name {
-  margin-top: 10px;
-  text-align: center;
+  margin-top: 15px;
+  text-align: left;
   display: block;
-  font-size: 15px;
+  font-size: 20px;
   color: #666;
+  font-weight: 700;
 }
 .portfolioDesc {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 .portfolioDesc p {
   font-size: 14px;
