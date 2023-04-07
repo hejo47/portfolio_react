@@ -30,10 +30,10 @@ const PortfolioItem = (props) => {
             작업 기간<span>{props.item.date}</span>
           </p>
           <p>
-            기 여 도<span>{props.item.score}</span>
+            기 여 도<span style={{ paddingLeft: 10 }}>{props.item.score}</span>
           </p>
-          <p style={{ marginTop: 10, marginBottom: 10 }}>
-            <span>{props.item.desc}</span>
+          <p style={{ marginBottom: 10 }}>
+            특 징<span style={{ paddingLeft: 27 }}>{props.item.desc}</span>
           </p>
           <Link to={props.item.url}>
             <div className={classes.pfbtn}>구현 화면</div>

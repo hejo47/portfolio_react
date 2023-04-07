@@ -1,6 +1,9 @@
 import classes from "./Cover.module.css";
 import Container from "../common/Container";
 import { Link } from "react-router-dom";
+import { Scene } from "three";
+
+const scene = new Scene();
 const Cover = () => {
   return (
     <section id='cover'>
@@ -8,6 +11,9 @@ const Cover = () => {
         <div className={classes.coverbg}></div>
         <Container>
           <div className={classes.coverText}>
+            <p>
+              맡겨<span>만 주세요</span>!
+            </p>
             <h2>
               헤주가 <span>다 헤주</span>
             </h2>

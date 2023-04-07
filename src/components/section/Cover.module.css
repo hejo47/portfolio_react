@@ -61,6 +61,18 @@
   letter-spacing: -0.05px;
   color: #666;
 }
+.coverText p {
+  font-size: 30px;
+  /* margin-bottom: 10px; */
+  color: #666;
+  display: inline;
+}
+.coverText p span {
+  display: inline;
+  font-weight: bold;
+  color: #fff;
+  -webkit-text-stroke: 0.5px #333;
+}
 @media (max-width: 768px) {
   .coverText h4 {
     font-size: 14px;
