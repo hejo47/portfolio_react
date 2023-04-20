@@ -9,6 +9,7 @@ import Footer from "./components/common/Footer";
 import { Routes, Route } from "react-router-dom";
 import PortfolioDetail from "./components/pages/PortfolioDetail";
 import Timeline from "./components/common/Timeline";
+import Marquee from "./components/section/Marquee";
 import img1 from "../src/img/kisa.png";
 import img2 from "../src/img/bbatsue.png";
 import img3 from "../src/img/kakao.png";
@@ -166,6 +167,7 @@ function App() {
             <>
               <Timeline />
               <Cover />
+              <Marquee />
               <Profile />
               <PortfolioList list={portfoioList} />
               <Status />

@@ -1,9 +1,7 @@
 import classes from "./Cover.module.css";
 import Container from "../common/Container";
 import { Link } from "react-router-dom";
-import { Scene } from "three";
 
-const scene = new Scene();
 const Cover = () => {
   return (
     <section id='cover'>
@@ -19,15 +17,6 @@ const Cover = () => {
             </h2>
             <h4>WEB FRONTEND DEVELOPER</h4>
             <div className={classes.coverSnsWrapper}>
-              {/* <div className={classes.coverSns} onClick={() => window.open("https://blog.naver.com/hejo_47")}>
-                <i className='ri-bold'></i>
-              </div>
-              <div className={classes.coverSns} onClick={() => window.open("https://github.com/hejo47")}>
-                <i className='ri-github-fill'></i>
-              </div>
-              <div className={classes.coverSns} onClick={() => window.open("mailto:andante0407@gmail.com")}>
-                <i className='ri-mail-fill'></i>
-              </div> */}
               <a href='../강혜주입사지원서.pdf' target='_blank' className={classes.btn}>
                 이력서 보기
               </a>
@@ -39,7 +28,6 @@ const Cover = () => {
               </Link>
             </div>
           </div>
-          <div className={classes.scroll}></div>
         </Container>
       </div>
     </section>
