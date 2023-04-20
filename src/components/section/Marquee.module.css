@@ -1,12 +1,11 @@
 .marqueeTexts {
-  width: 100%;
   text-align: center;
   color: transparent;
-  font-size: 45px;
+  font-size: 60px;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
   position: absolute;
-  top: 25%;
+  top: 20%;
 }
 .marqueeBg {
   background-color: #111;

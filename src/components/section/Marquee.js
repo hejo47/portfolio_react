@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from "react";
 import { gsap } from "gsap";
 import classes from "./Marquee.module.css";
 
-const marqueeTexts = ["HYEJU IS DA HYEJU!"];
+const marqueeTexts = ["DA HYEJU!", "DA HYEJU!", "DA HYEJU!"];
 
 const Marquee = () => {
   const marqueeElements = useRef([]);
