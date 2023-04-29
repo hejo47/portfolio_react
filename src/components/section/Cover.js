@@ -17,7 +17,7 @@ const Cover = () => {
             </h2>
             <h4>WEB FRONTEND DEVELOPER</h4>
             <div className={classes.coverSnsWrapper}>
-              <a href='../강혜주입사지원서.pdf' target='_blank' className={classes.btn}>
+              <a href='../강혜주입사지원서입니다.pdf' target='_blank' className={classes.btn}>
                 이력서 보기
               </a>
               <Link to='https://github.com/hejo47' className={classes.btn}>
