@@ -20,10 +20,10 @@ const Cover = () => {
               <a href='../강혜주입사지원서입니다.pdf' target='_blank' className={classes.btn}>
                 이력서 보기
               </a>
-              <Link to='https://github.com/hejo47' className={classes.btn}>
+              <Link to='https://github.com/hejo47' target='_blank' className={classes.btn}>
                 깃허브 가기
               </Link>
-              <Link to='mailto:andante0407@gmail.com' className={classes.btn}>
+              <Link to='mailto:andante0407@gmail.com' target='_blank' className={classes.btn}>
                 메일 보내기
               </Link>
             </div>
